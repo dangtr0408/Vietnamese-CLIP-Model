@@ -1,6 +1,6 @@
 # Thực Tập
 ## Báo Cáo Lí Thuyết
-File báo cáo pdf cô đọng các phần lí thuyết đã học trong suốt quá trình thực tập bao gồm các nội dung cơ bản như edge detector, fourier transform,... và tóm tắt ngắn gọn một số bài báo khoa học nổi bật ngày trước đặt nền móng cho sự phát triển của Computer Vision hiện đại.
+File báo cáo PDF cô đọng các phần lí thuyết đã học trong suốt quá trình thực tập bao gồm các nội dung cơ bản như edge detector, fourier transform,... và tóm tắt ngắn gọn một số bài báo khoa học nổi bật ngày trước đặt nền móng cho sự phát triển của Computer Vision hiện đại.
 
 Cùng với đó là một số file demo nhỏ sử dụng thư viện OpenCV để thực hiện tác vụ xử lý ảnh cơ bản trên.
 
