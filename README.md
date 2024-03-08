@@ -1,6 +1,6 @@
 # Thực Tập
 ## Lí Thuyết
-Báo cáo cô đọng các phần lí thuyết đã học trong suốt quá trình thực tập bao gồm các nội dung cơ bản như edge detector, fourier transform,... và tóm tắt ngắn gọn một số bài báo khoa học nổi bật ngày trước đặt nền móng cho sự phát triển của Computer Vision hiện đại.
+File báo cáo pdf cô đọng các phần lí thuyết đã học trong suốt quá trình thực tập bao gồm các nội dung cơ bản như edge detector, fourier transform,... và tóm tắt ngắn gọn một số bài báo khoa học nổi bật ngày trước đặt nền móng cho sự phát triển của Computer Vision hiện đại.
 
 Cùng với đó là một số file demo nhỏ sử dụng thư viện OpenCV để thực hiện tác vụ xử lý ảnh cơ bản trên.
 
@@ -62,4 +62,4 @@ Prompt: Có xe máy ở trên đường.
 
 ### Kết Luận
 
-Tuy model đã thành công phân loại được một số hình ảnh nhưng độ chính xác còn khá thấp. Điều này là dễ hiểu vì tập huấn luyện chỉ có khoảng 6000 ảnh trong đó có tới hơn nửa là từ bộ dữ liệu KTVIC với chủ đề khá rời rạc. Để cải tiến mô hình này ta cần mở rộng bộ dữ liệu (khá khó khăn vì dữ liệu tiếng việt còn ít) hoặc tiếp tục fine-tune với dữ liệu chủ đề cụ thể hơn ví dụ như bộ ảnh giao thông đường bộ, bộ ảnh các món ăn,...
+Tuy model đã thành công phân loại được một số hình ảnh nhất định nhưng khi thử nhiều prompts hơn thì có thể dễ thấy độ chính xác còn khá thấp, ví dụ như với prompt "Chơi bóng chày" trên model đã cho ra kết quả khá tốt nhưng chỉ cần đổi thành "Có người chơi bóng chày" độ chính xác lập tức giảm. Điều này là dễ hiểu vì tập huấn luyện chỉ có khoảng 6000 ảnh trong đó có tới hơn nửa là từ bộ dữ liệu KTVIC với chủ đề khá rời rạc. Để cải tiến mô hình này ta cần mở rộng bộ dữ liệu (khá khó khăn vì dữ liệu tiếng việt còn ít) hoặc tiếp tục fine-tune với dữ liệu chủ đề cụ thể hơn như bộ ảnh giao thông đường bộ, bộ ảnh các món ăn,...
