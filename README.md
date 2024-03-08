@@ -31,22 +31,34 @@ Chia làm bốn giai đoạn chính:
 - Khởi động, freeze (đóng băng) lại weights của hai encoders trong khoảng 10 epochs đầu để layer kết nối (projection head) có thời gian thích nghi trước khi train.
 - Unfreeze hai encoders và train với bộ dữ liệu KTVIC khoảng 70 epochs. Model nhanh chóng hội tụ sau 3000 batches đầu tiên và gần như không thay đổi 1000 batches tiếp theo.
 
-  ![plot](./Result_CLIP/first_70_epochs.png)
+  <img src="./Result_CLIP/first_70_epochs.png" width="400" height="300">
   
 - Sau đó tiếp tục train với bộ dữ liệu UITViIC xấp xỉ 120 epochs. Có thể thấy loss dao động mạnh mẽ, lúc thấp lúc cao do gặp dữ liệu chưa thấy bao giờ nhưng cũng hội tụ sau khoảng 5000 batches.
   
-  ![plot](./Result_CLIP/next_120_epochs_new_data.png)
+  <img src="./Result_CLIP/next_120_epochs_new_data.png" width="400" height="300">
   
 - Cuối cùng, trộn lẫn hai bộ data và train với learning rate nhỏ khoảng 120 epochs nữa để đảm bảo sự hội tụ.
 
-  ![plot](./Result_CLIP/final_120_epoch_mix.png)
+  <img src="./Result_CLIP/final_120_epoch_mix.png" width="400" height="300">
 
 ### Kết Quả
-Thử nghiệm phân loại ảnh với một số prompt tự tạo:
-![plot](./Result_CLIP/bong_chay.png)
-![plot](./Result_CLIP/tennis.png)
-![plot](./Result_CLIP/thuyen.png)
-![plot](./Result_CLIP/xe_may.png)
+Thử nghiệm phân loại ảnh với một số prompts:
+
+Prompt: Chơi bóng chày.
+
+<img src="./Result_CLIP/bong_chay.png" width="400" height="300">
+
+Prompt: Có người đang chơi tennis.
+
+<img src="./Result_CLIP/tennis.png" width="600" height="500">
+
+Prompt: Có một con thuyền ở dưới nước.
+
+<img src="./Result_CLIP/thuyen.png" width="600" height="500">
+
+Prompt: Có xe máy ở trên đường.
+
+<img src="./Result_CLIP/xe_may.png" width="600" height="500">
 
 ### Kết Luận
 
