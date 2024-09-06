@@ -42,7 +42,7 @@ Chia làm bốn giai đoạn chính:
   <img src="./Result_CLIP/final_120_epoch_mix.png" width="400" height="300">
 
 ### Kết Quả
-Thử nghiệm phân loại ảnh với một số prompts:
+Thử nghiệm tìm kiếm ảnh với một số prompts:
 
 Prompt: Chơi bóng chày.
 
